@@ -44,7 +44,7 @@ BOT_TOKEN = os.getenv(“BOT_TOKEN”)
 if not BOT_TOKEN:
 raise RuntimeError(“BOT_TOKEN не задан. Установите переменную окружения BOT_TOKEN.”)
 
-BOT_USERNAME = “practicaent_bot”
+BOT_USERNAME = “practicaentkz_bot”
 SUPER_ADMIN_IDS = [5048547918]
 MANAGER_LINK = “@historyentk_bot”
 DB_PATH = “bot.db”
